@@ -1,9 +1,10 @@
 @charset "UTF-8";
 
-#interface{
+#interface {
     border: 1px solid #606060;
     align-content: center;
 }
+
 /* Formatação do Menu*/
 nav#menu ul {
     list-style: none;
@@ -54,17 +55,16 @@ section#corpo {
     font-size: 13px;
 }
 
-.container{
+.container {
 
     border: 1.5px solid #000;
     height: 440px;
     margin-bottom: 2px;
     display: flex;
     flex-direction: column;
-
 }
 
-.item{
+.item {
     width: 70px;
     height: 50px;
     padding: 20px;
@@ -73,7 +73,7 @@ section#corpo {
     background-color: green;
 }
 
-.p1{
+.p1 {
     background-color: #000;
 }
 
