@@ -8,7 +8,6 @@ body{
     border: 1px solid #606060;
 }
 
-/* Formatação do Menu*/
 nav#menu ul {
     list-style: none;
     text-transform: uppercase;
@@ -44,14 +43,15 @@ nav#menu a:hover {
 
 section#corpo {
     border: 1px solid #606060;
-    display: inline-block;
+    display: block;
     min-width: 320px;
     max-width: 800px;
+    display: inline-block;
+    
 }
 
 .contencaoPerguntas {
-    display: flex;
-    justify-content: space-between;
+    display: block;
     width: 100%;
     height: 100%;
 }
@@ -61,16 +61,69 @@ section#corpo {
     justify-content: center;
 }
 
-.voltar{
-    display: flex;
+#rodape {
+    clear: both;
+    padding: 10px;
+    margin-top: 100px;
+    font-size: 13px;
 }
 
-.proxima{
+.caixa{
+
+    border: 1.5px solid #606060;
+    height: 400px;
+    width: 120px;
     display: flex;
-    justify-content: right;
-    align-items: end;
     flex-direction: column;
+    text-align: center;
+    justify-content: flex-end;
+    align-items: flex-end;
+    float: right;
 }
+
+.item{
+    width: 70px;
+    height: 50px;
+    padding: 5px;
+    margin: 25px;
+    background-color: green;
+}
+
+.p1{
+    background-color: #000;
+}
+
+.contencaoPerguntas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.voltar{
+    margin-right: 20px;
+    display: flex;
+}
+.proxima {
+    display: flex;
+    margin-left: 616px;
+}
+
+#voltarPergunta,
+#proximaPergunta {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#voltarPergunta:hover,
+#proximaPergunta:hover {
+    background-color: #0056b3;
+}
+
 
 label {
     display: block; 
@@ -117,43 +170,5 @@ button:hover {
  
 #labelMedalhas{
     display: flex;
-    margin-left: 270px;
-}
-
-#rodape {
-    clear: both;
-    padding: 10px;
-    margin-top: 100px;
-    font-size: 13px;
-}
-
-.container{
-    height: 10%;
-    width: 150px;
-    border: 1.5px solid #606060;
-    margin-bottom: 2px;
-    display: flex;
-    flex-direction: column;
-    float: right;
-    text-align: center;
-    justify-content: flex-end;
-    align-items: flex-end;
-
-}
-
-.item{
-    width: 70px;
-    height: 50px;
-    padding: 20px;
-    margin: 25px;
-    margin-left: 15px;
-    background-color: green;
-}
-
-.p1{
-    background-color: #000;
-}
-
-img{
-    width: 21%;
+    justify-content: center;
 }
