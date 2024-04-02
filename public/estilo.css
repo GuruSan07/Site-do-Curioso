@@ -71,7 +71,7 @@ section#corpo {
 .caixa{
 
     border: 1.5px solid #606060;
-    height: 400px;
+    height: 100%;
     width: 120px;
     display: flex;
     flex-direction: column;
@@ -82,10 +82,10 @@ section#corpo {
 }
 
 .item{
-    width: 70px;
-    height: 50px;
-    padding: 5px;
-    margin: 25px;
+    width: 50%;
+    height: 50%;
+    padding: 5%;
+    margin: 25%;
     background-color: green;
 }
 
@@ -170,5 +170,5 @@ button:hover {
  
 #labelMedalhas{
     display: flex;
-    justify-content: center;
+    margin-left: 270px;
 }
