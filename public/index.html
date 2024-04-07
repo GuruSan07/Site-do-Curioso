@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo.css">
-    <script src="src/index.js" async></script>
-    <script src="meu-arquivo/src/index.js"></script>
+    <script src="../src/index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+
 
 
     <title>Olha o Curioso</title>
@@ -39,8 +40,8 @@
         <span id="perguntas"> Quantas medalhas <label>
             <select id= "perguntaPais" class = "Atletas">
                 <option value = "" selected disabled>País</option>
-                <option value = "Brasil"> Brasil</option>
-                <option value = "Eua"> Eua</option>
+                <option value = "BRA">Brasil</option>
+                <option value = "USA"> Eua</option>
                 <option value = "Alemanha"> Alemanha</option>
                 <option value = "China"> China</option>
                 <option value = "Croacia"> Croacia</option>
@@ -48,6 +49,7 @@
         </label>tem no total?</span>
 
         <label id="labelMedalhas"></label>
+        <div id="output"></div>
 
 
         <div class="contencaoPerguntas">
@@ -70,6 +72,9 @@
         Criado por: <a href="https://www.instagram.com/danielsantos_dev/" target="_blank">Daniel</a>, <a href = "https://www.instagram.com/eduardogpz2/" target="_blank">Eduardo</a> e <a href="https://www.instagram.com/gustavo_ricardo_007/" target="_blank">Gustavo</a>
 </footer>
 </div>
+<div id="output"></div>
+
+<script src="projeto.js"></script>
 </body>
 </html>
 
