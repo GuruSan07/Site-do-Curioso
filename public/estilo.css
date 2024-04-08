@@ -81,12 +81,11 @@ section#corpo {
     float: right;
 }
 
-.item{
+.item {
     width: 50%;
     height: 50%;
     padding: 5%;
     margin: 25%;
-    background-color: green;
 }
 
 .p1{
