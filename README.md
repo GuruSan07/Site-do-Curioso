@@ -12,3 +12,5 @@ Participantes:
 1- José Eduardo Duarte dos Santos. / EduardoGpzz
 2- Gustavo Ricardo Araújo Santos. / gusricardot02
 3- Daniel da Conceição Santos. / GuruSan07
+
+Obs: Os valores podem variar, se pesquisar usando dados externos. Os dados usados na construção do site foi até as Olímpiadas de 2016.  

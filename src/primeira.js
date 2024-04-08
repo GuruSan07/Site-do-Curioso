@@ -1,3 +1,4 @@
+// Função da primeira pergunta!!
 // Função para contar o total de medalhas únicas por país
 const contarMedalhasPorPais = (linhas, pais) => {
     // Cria um novo conjunto para armazenar as combinações únicas de ano, esporte, evento e tipo de medalha

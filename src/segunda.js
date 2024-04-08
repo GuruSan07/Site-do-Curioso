@@ -1,4 +1,4 @@
-//função da segunda pergunta!!
+// Função da segunda pergunta!!
 document.addEventListener('DOMContentLoaded', function() {  
 document.getElementById('perguntaPais').addEventListener('change', function() {
     var labelMedalhas = document.getElementById('labelMedalhas');

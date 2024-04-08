@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+
+
 
     <title>Olha o Curioso</title>
 </head>
@@ -21,40 +24,45 @@
 <section id="corpo">
     <h5>Curiosidades das Olimpíadas</h5>
     <p>Resumo das Olímpiadas<br>
-        Muitos jovens atletas têm se destacado nas Olimpíadas ao longo dos anos. Por exemplo, na Olimpíada de Tóquio 2021, a brasileira Rayssa Leal, de apenas 13 anos, conquistou a medalha de prata no skate. Além dela, as japonesas Momiji Nishiya, também de 13 anos, e Funa Nakayama, de 16, ficaram com o ouro e bronze, respectivamente, na mesma modalidade
-        <br>Copyright &copy; 2024 - by Zé da Manga</p>
+        As Olimpíadas são um evento esportivo global que remonta à Grécia Antiga, onde competições atléticas eram realizadas em honra aos deuses. Em 1896, o Barão Pierre de Coubertin revivificou os Jogos Olímpicos modernos em Atenas, promovendo valores de paz, união e excelência esportiva. Desde então, a cada quatro anos, atletas de todo o mundo se reúnem para competir em espírito de fair play e amizade, celebrando a diversidade cultural e o poder do esporte para unir nações. As Olimpíadas representam mais do que simples competições; são uma ode à resiliência humana, à superação de desafios e à busca constante pela grandeza.
         
-
-        <span id="perguntas">Em diferentes esportes, quantas participações os países tiveram na temporada de inverno<label>
+<br><br><span id="perguntas"> Quantas medalhas os <label>
             <select id= "perguntaPais" class = "Atletas">
                 <option value = "" selected disabled>Países</option>
-                <option value = "BRA"> Brasil</option>
+                <option value = "BRA">Brasil</option>
                 <option value = "USA"> Eua</option>
                 <option value = "GER"> Alemanha</option>
                 <option value = "CHN"> China</option>
                 <option value = "CRO"> Croacia</option>
             </select>
-        </label></span>
+        </label>tem no total?</span>
+
         <label id="labelMedalhas"></label>
+        <div id="output"></div>
+
+
         <div class="contencaoPerguntas">
                 <div class="voltar"> <button id="voltarPergunta"> Clique no link ao lado=>, essa parte não está pronta </button></div>
-                <div class="proxima"> <button id="proximaPergunta"> Clique no link ao lado=>, essa parte não está pronta </button></div>
+                <div class="proxima"> <button id="proximaPergunta"> Clique no link ao lado=>, essa parte não está pronta  </button></div>
         </div>
 </section>
 
 <aside class = "caixa">
     <div class = "item item-1">
-        <a href = "quinta.html"> Quantas vezes os países participaram da temporada de verão? </a>
+        <a href = "segunda.html">Quem Não Participou das Olimpíadas?</a>
     </div>
 </aside>
+
 
 <footer id="rodape">
         Criado por: <a href="https://www.instagram.com/danielsantos_dev/" target="_blank">Daniel</a>, <a href = "https://www.instagram.com/eduardogpz2/" target="_blank">Eduardo</a> e <a href="https://www.instagram.com/gustavo_ricardo_007/" target="_blank">Gustavo</a>
 </footer>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
-<script src="../src/quarta.js" async></script>
+</div>
+<div id="output"></div>
+<script src="../src/primeira.js"></script>
 </body>
+</html>
+
 
 
 
