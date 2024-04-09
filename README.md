@@ -14,3 +14,5 @@ Participantes:
 3- Daniel da Conceição Santos. / GuruSan07
 
 Obs: Os valores podem variar, se pesquisar usando dados externos. Os dados usados na construção do site foi até as Olímpiadas de 2016.  
+
+Site hospedado no Netlify: https://curioso-site.netlify.app/
